@@ -1,0 +1,105 @@
+.font-size {
+  font-size: 12px;
+  font-weight: 400;
+}
+.bgColor {
+  background-color: #012b72;
+}
+.hovers {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.hovers :hover {
+  transform: scale(0.8);
+}
+.bgHome {
+  background-image: url(../images/bgHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.HeaderDetailContainer {
+  width: auto;
+  height: 70vw;
+  max-height: 650px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.HeaderDetailContainer .HeaderDetailContainer_cont {
+  /* width: 90vw; */
+  max-width: 1260px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.HeaderDetailContainer_data {
+  -webkit-flex: 1 1;
+  flex: 1 1;
+}
+
+.HeaderDetailContainer_data_container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 410px;
+  margin: 0;
+}
+.HeaderDetailContainer_data_header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  width: 100%;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.HeaderDetailContainer_data_contenet {
+  margin: 0;
+  color: #000;
+}
+.HeaderDetailContainer_data_sel_cont select {
+  width: 100%;
+  height: 60px;
+
+  border: 1px solid #d3d3d3 !important;
+  outline: 0 !important;
+  background-color: #fff !important;
+  color: grey !important;
+  border-radius: 6px !important;
+  margin-top: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E) !important;
+  background-repeat: no-repeat, repeat !important;
+  background-position: right 0.7em top 50%, 0 0 !important;
+  background-size: 0.65em auto, 100% !important;
+  border: none;
+  border-radius: 0;
+  padding: 0 0 0 0.35em;
+}
+
+.Button_cont {
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(1, 43, 114);
+  cursor: pointer;
+  width: 90%;
+  height: 50px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
